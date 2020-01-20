@@ -11,10 +11,10 @@ $(function(){
            correct = data[i].chine;
 
            if(answer == correct){
-             console.log("正解");
+             alert("正解");
            }else {
-             console.log("違う！");
-             array.push(i);
+             alert("違う！正しくは"+correct);
+             // array.push(i);
            }
            i++;
            if(i == data.length){
