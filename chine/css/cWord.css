@@ -1,0 +1,31 @@
+body{
+  background-color: #FFFFFB;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  text-align: center;
+}
+
+.japanWord {
+  font-size: 100px;
+}
+
+#answerText {
+  margin: 10px;
+}
+
+#button {
+  margin: auto;
+  width: 10%;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  cursor: default;
+}
+#button:active {
+  /*ボタンを押したとき*/
+ -webkit-transform: translateY(4px);
+ transform: translateY(4px);/*下に動く*/
+ border-bottom: none;/*線を消す*/
+}
