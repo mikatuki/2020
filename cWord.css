@@ -1,0 +1,52 @@
+@media screen and (max-width:480px){
+  /*画面幅が480pxまでの時*/
+  #button {
+    color: red;
+  }
+}
+@media screen and (min-width:781px){
+  /*画面幅が781px以上の時*/
+}
+
+body{
+  background-color: #FFFFFB;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  text-align: center;
+}
+
+.japanWord {
+  font-size: 100px;
+}
+
+#answerText {
+  margin: 10px;
+}
+
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+  #button {
+    margin: 0 40%;
+  }
+}
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  #button {
+    margin: 0 25%;
+  }
+}
+
+#button {
+  /* margin: 0 40%; */
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  cursor: default;
+}
+#button:active {
+  /*ボタンを押したとき*/
+ -webkit-transform: translateY(4px);
+ transform: translateY(4px);/*下に動く*/
+ border-bottom: none;/*線を消す*/
+}
